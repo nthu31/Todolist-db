@@ -1,4 +1,4 @@
-# Todolist
+# Todolist-db
 A simple todo-list web application using React / Redux / Express / postgreSQL
 
 ## Develop Tool
