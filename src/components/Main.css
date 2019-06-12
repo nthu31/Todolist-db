@@ -1,0 +1,53 @@
+.main-container {
+    height: 100%;
+}
+
+.fa-folder-open {
+    position: relative;
+    top: 3px;
+}
+
+.todo-2 {
+    font-size: 1.5rem;
+    position: relative;
+    border-radius: 5px;
+}
+
+.title {
+    margin-left: 1rem;
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+.fa-clipboard-list {
+    margin-right: 1rem;
+    position: relative;
+    top: 1px;
+}
+
+.deadline {
+    margin-right: 1rem;
+}
+
+.important-icon {
+    margin-right: 1rem;
+    position: relative;
+    top: 1px;
+}
+
+.important-icon:hover {
+    cursor: pointer;
+}
+
+.colorY {
+    color: rgb(255, 217, 0);
+}
+
+.detail {
+    margin-left: 3rem;
+    font-size: 1rem;
+    padding: 3px;
+    position: relative;
+}

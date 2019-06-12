@@ -1,0 +1,49 @@
+.navb {
+    margin-bottom: 1rem;
+}
+
+.togglerItem {
+    color: black !important;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+}
+
+.searchBar {
+    border: solid rgb(210, 210, 210) 1px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.search {
+    justify-content: flex-end;
+    margin-top: 0px;
+}
+
+.togg:hover {
+    cursor: pointer;
+}
+
+.btnn {
+    border-color: white !important;
+    outline: none !important;
+    border: 0 !important;
+}
+
+.btnn:hover {
+    color: gray !important;
+    background-color: white !important;
+}
+
+@media (max-width: 950px) {
+    .search {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .search {
+        margin-top: 10px;
+    }
+}

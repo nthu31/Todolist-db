@@ -1,0 +1,65 @@
+.categList {
+    height: 100%;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: 'Baloo Bhai', cursive;
+    transition: width 0.5s;
+}
+
+.categList.hide {
+    width: 0px;
+}
+
+.categList.appear {
+    width: 450px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-left: 1rem;
+    color: black;
+    border: solid black;
+    border-left: 0;
+    border-right: 0;
+    padding: 8px 8px;
+    font-size: 1.5rem;
+}
+
+.footer:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.createInput {
+    margin: 0 !important;
+    padding-left: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.inputArea {
+    border: solid black 3px;
+    border-radius: 8px;
+}
+
+.createCatButton {
+    background: black;
+    color: white;
+    border: solid black 0px;
+    border-radius: 5px;
+    padding: 4px 7px 4px 7px;
+    outline: inherit;
+}
+
+@media (max-width: 950px) {
+    .categList.appear {
+        width: 250px;
+    }
+}

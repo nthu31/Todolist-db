@@ -1,0 +1,47 @@
+.todo {
+    color: black;
+    margin: 1.5rem 10%;
+    font-family: 'Baloo Bhai', cursive;
+    background-color: white;
+    padding: 7px;
+    border-radius: 5px;
+    overflow-y: hidden;
+}
+
+.todo:hover {
+    color: white;
+    background-color: rgba(0,0,0,0);
+}
+
+.text_line {
+    text-decoration: line-through;
+}
+
+.detailOpen {
+    height: auto;
+    display: block;
+}
+
+.detailHide {
+    height: 0;
+    display: none;
+}
+
+.doneButton {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.doneButton:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+
+
+.check {
+    margin-right: 10px;
+}

@@ -1,0 +1,126 @@
+.editArea {
+    height: 100%;
+    background: url('images/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: margin-left 0.5s;
+}
+
+.editArea.moveLeft {
+    margin-left: 0;
+}
+
+.editArea.moveRight {
+    margin-left: 450px;
+}
+
+.editMasking {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sideBtn {
+    width: 200px;
+    margin: 1rem;
+    padding: 5px 0px;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 1.5rem;
+    border-width: 0;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.sideBtn:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+}
+
+.editFooter {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 1rem;
+    background-color: rgba(0, 0, 0, 1);
+    padding-top: 6px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 1.5rem;
+    border-width: 0;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.editFooter:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+}
+
+.todoPop {
+    color: black;
+    margin: 1.5rem 10%;
+    font-family: 'Baloo Bhai', cursive;
+    background-color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.addTodoInput {
+    border: solid gray 2px;
+    border-radius: 10px;
+}
+
+.addD {
+    margin-top: 10px;
+}
+
+.confirm-add {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 5px;
+}
+
+.confirm-add:hover {
+    background-color: black;
+    color: white;
+}
+
+.delete {
+    position: absolute;
+    bottom: 0;
+    margin: 1rem;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 1.5rem;
+    border-width: 0;
+    border-radius: 5px;
+    padding-top: 6px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: all 0.3s;
+}
+
+.delete:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+}
+
+@media (max-width: 950px) {
+    .editArea.moveRight {
+        margin-left: 250px;
+    }
+}
+
+@media (max-width: 430px) {
+    .sidebarBtn {
+        width: 100px;
+        margin: 5px;
+        font-size: 10px;
+    }
+}
